@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+
+body
+{
+font-family:'Roboto','STIX Two Math','Nanum Gothic', cursive, sans-serif;
+}
+
+
+
+	.container{
+	width: 80%;
+	margin: auto;
+	}
+
+	table
+	{
+	width:80%
+	}
+	th
+	{
+	background:grey;
+	color: white;
+	}
+	td{
+	color: blue;
+	}
+
+#header1
+{
+padding: 20px 50px 40px 50px;
+margin-top: 50px;
+text-align:center;
+background: black;
+color: white
+}
+
+#menu
+{
+list-style-type:none;
+text-align:center;
+margin:0px;
+overflow:hidden;
+background: black;
+}
+
+
+#menu li
+{
+display:inline;
+padding: 20px;
+}
+
+#menu a
+{
+color:white;
+font-size:1.5rem;
+text-decoration:none;
+}
+
+a li:hover
+{
+color:black;
+background:white;
+}
+
+#formdiv
+{
+width:50%;
+float:left;
+margin-top:3px;
+}
+
+#mapdiv
+{
+width:50%;
+float:left;
+margin-top:10px;
+margin-bottom:100px;
+margin-bottom:30px;
+}
+
+#formdiv [type="text"],textarea { font-family:cursive; color:blue;}
